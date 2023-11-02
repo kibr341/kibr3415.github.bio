@@ -1,0 +1,148 @@
+body{
+    background-color: lightblue;
+    border: 2px;
+    border: 1px solid black;
+}
+img {
+    height: 100px;
+    object-fit: contain;
+    width: 200px;
+    
+}
+h1 {
+    text-align: center;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input[type="radio"] {
+    align-self: start;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-between;
+}
+h2,h3,h4{
+    background-color: blue;
+}
+li{
+    background-color: burlywood;
+}
+
+header{
+    
+    background-color: yellowgreen;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: aqua;
+}
+.ul1,.li1{
+    display: flex;
+    padding: 15;
+}
+
+table{
+    border: 3px;
+}
+
+.inline-text::after {
+    content: "";
+    margin-left: 10px; 
+  }
+  table {
+    border-collapse: separate;
+    border-spacing: 10px; 
+    border: 1px solid black;
+  }
+  th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+    background-color: blueviolet;
+}
+.image-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-around; 
+
+        }
+h5{
+    background-color:lightgreen ;
+}
+h1{
+ background-color: brown;
+ text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #FFA500;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #349e46;
+}
+
+
+
+
+
+function appendToDisplay(value) {
+    display.value += value;
+}
+
+function clearDisplay() {
+    display.value = '';
+}
+
